@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "prompt_name": "Template Prompt Gambar Lengkap",
+    "version": "1.0",
+    "author": "NamaAnda",
+    "description": "Struktur JSON generik untuk membuat prompt gambar AI yang sangat detail dan terkontrol."
+  },
+  "prompt_elements": {
+    "subject": {
+      "main": "Seorang ksatria futuristik dengan baju zirah chrome",
+      "details": "Helm dengan visor neon biru, detail ukiran sirkuit di zirahnya, membawa pedang energi",
+      "action_pose": "Berdiri tegap di puncak gedung pencakar langit, menatap ke arah kota di bawah"
+    },
+    "environment": {
+      "setting": "Kota cyberpunk di malam hari",
+      "background_details": "Hujan rintik, gedung-gedung dengan iklan hologram raksasa, mobil terbang melintas di kejauhan",
+      "foreground_details": "Genangan air di atap yang memantulkan cahaya neon"
+    }
+  },
+  "aesthetics": {
+    "style": "Lukisan digital sinematik (cinematic digital painting)",
+    "artist_influence": ["Greg Rutkowski", "Syd Mead"],
+    "lighting": "Pencahayaan dramatis dari samping (dramatic side lighting), cahaya neon dari papan iklan, rim light biru pada zirah",
+    "color_palette": "Biru tua, ungu, magenta, dengan aksen chrome metalik dan oranye terang",
+    "mood": "Merenung, epik, sedikit melankolis"
+  },
+  "composition": {
+    "shot_type": "Medium full shot",
+    "camera_angle": "Low angle shot (sudut rendah), melihat ke atas ke arah ksatria",
+    "camera_lens": "35mm lens",
+    "framing": "Rule of thirds"
+  },
+  "image_quality": {
+    "resolution": "8K",
+    "details": "Sangat detail (hyperdetailed), detail yang rumit (intricate details)",
+    "rendering_engine": "Octane render, Unreal Engine 5"
+  },
+  "negative_prompt": [
+    "kartun",
+    "gambar anak-anak",
+    "blur",
+    "kualitas rendah",
+    "anatomi buruk",
+    "deformasi",
+    "tangan jelek",
+    "teks",
+    "watermark",
+    "tanda tangan"
+  ],
+  "technical_parameters": {
+    "aspect_ratio": "16:9",
+    "seed": null,
+    "model_version": "Midjourney v6 / SDXL 1.0"
+  }
+}
